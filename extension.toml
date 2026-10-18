@@ -1,0 +1,11 @@
+id = "zena"
+name = "Zena"
+description = "Zena language support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Demetrius Kanios <demetrius@kanios.net>"]
+repository = "https://github.com/QuantumSegfault/zed-zena/"
+
+[language_servers.zena-cli]
+name = "zena-cli"
+languages = ["Zena"]
