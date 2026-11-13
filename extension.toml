@@ -9,3 +9,10 @@ repository = "https://github.com/QuantumSegfault/zed-zena/"
 [language_servers.zena-cli]
 name = "zena-cli"
 languages = ["Zena"]
+
+# No tree-sitter grammar exists for Zena yet. The TypeScript grammar is close
+# enough to give useful highlighting; see languages/zena/highlights.scm.
+[grammars.typescript]
+repository = "https://github.com/tree-sitter/tree-sitter-typescript"
+commit = "f975a621f4e7f532fe322e13c4f79495e0a7b2e7"
+path = "typescript"
